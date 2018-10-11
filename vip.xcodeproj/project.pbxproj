@@ -15,6 +15,9 @@
 		393391A320F4AAFC00E038D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 393391A220F4AAFC00E038D7 /* main.m */; };
 		393391AD20F4AAFC00E038D7 /* vipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 393391AC20F4AAFC00E038D7 /* vipTests.m */; };
 		393391B820F4AAFC00E038D7 /* vipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 393391B720F4AAFC00E038D7 /* vipUITests.m */; };
+		393391CA20F4AB0C00E038D7 /* ArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 393391C520F4AB0B00E038D7 /* ArcView.m */; };
+		393391CB20F4AB0C00E038D7 /* ArcItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 393391C720F4AB0B00E038D7 /* ArcItem.m */; };
+		39FA047C20F59E8E008081AC /* ArcItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39FA047B20F59E8E008081AC /* ArcItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		393391B320F4AAFC00E038D7 /* vipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		393391B720F4AAFC00E038D7 /* vipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vipUITests.m; sourceTree = "<group>"; };
 		393391B920F4AAFC00E038D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		393391C520F4AB0B00E038D7 /* ArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcView.m; sourceTree = "<group>"; };
+		393391C620F4AB0B00E038D7 /* ArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcView.h; sourceTree = "<group>"; };
+		393391C720F4AB0B00E038D7 /* ArcItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcItem.m; sourceTree = "<group>"; };
+		393391C820F4AB0B00E038D7 /* ArcItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcItem.h; sourceTree = "<group>"; };
+		39FA047B20F59E8E008081AC /* ArcItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArcItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,11 @@
 				3933919420F4AAFA00E038D7 /* AppDelegate.m */,
 				3933919620F4AAFA00E038D7 /* ViewController.h */,
 				3933919720F4AAFA00E038D7 /* ViewController.m */,
+				393391C620F4AB0B00E038D7 /* ArcView.h */,
+				393391C520F4AB0B00E038D7 /* ArcView.m */,
+				393391C820F4AB0B00E038D7 /* ArcItem.h */,
+				393391C720F4AB0B00E038D7 /* ArcItem.m */,
+				39FA047B20F59E8E008081AC /* ArcItem.xib */,
 				3933919920F4AAFA00E038D7 /* Main.storyboard */,
 				3933919C20F4AAFC00E038D7 /* Assets.xcassets */,
 				3933919E20F4AAFC00E038D7 /* LaunchScreen.storyboard */,
@@ -236,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				393391A020F4AAFC00E038D7 /* LaunchScreen.storyboard in Resources */,
+				39FA047C20F59E8E008081AC /* ArcItem.xib in Resources */,
 				3933919D20F4AAFC00E038D7 /* Assets.xcassets in Resources */,
 				3933919B20F4AAFA00E038D7 /* Main.storyboard in Resources */,
 			);
@@ -263,8 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3933919820F4AAFA00E038D7 /* ViewController.m in Sources */,
+				393391CA20F4AB0C00E038D7 /* ArcView.m in Sources */,
 				393391A320F4AAFC00E038D7 /* main.m in Sources */,
 				3933919520F4AAFA00E038D7 /* AppDelegate.m in Sources */,
+				393391CB20F4AB0C00E038D7 /* ArcItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3Q43W78XT;
 				INFOPLIST_FILE = vip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3Q43W78XT;
 				INFOPLIST_FILE = vip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
