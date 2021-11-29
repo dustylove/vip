@@ -12,3 +12,4 @@
     [self.view addSubview:view];
 }
 ```
+![.gif](https://upload-images.jianshu.io/upload_images/3382797-bed774f7bfdab375.gif?imageMogr2/auto-orient/strip)
